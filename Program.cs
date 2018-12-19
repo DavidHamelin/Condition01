@@ -10,8 +10,9 @@ namespace Condition01
     {
         static void Main(string[] args)
         {
-            bool rainy = true;
+            bool rainy = true; // if (!rainy) ---> ! = négation
             if (rainy == true) Console.WriteLine("Bonjour, il ne pleut pas aujourd'hui, bonne journée !");
+            //if (rainy) Console.WriteLine("Bonjour, il ne pleut pas aujourd'hui, bonne journée !");
             else Console.WriteLine("Bonjour, il pleut aujourd'hui, vous devriez prendre votre parapluie !");  
         }
     }
